@@ -6,9 +6,13 @@ function verificarCampos(form) {
 
         if (!campo.checkValidity()) {
             campo.classList.add("campo-erro");
+            campo.setAttribute("aria-invalid", "true");
+        } else {
+            campo.setAttribute("aria-invalid", "false");
         }
     });
 }
+
 
 window.verificarCampos = verificarCampos;
 
