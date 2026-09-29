@@ -63,10 +63,12 @@ function configurarEnvioFormulario(site) {
         salvarCadastro(dadosCadastro);
 
         toast.style.display = "block";
+        toast.setAttribute("role", "status");
+        toast.setAttribute("aria-live", "polite");
 
-        setTimeout(() => {
-            toast.style.display = "none";
-        }, 3000);
+setTimeout(() => {
+    toast.style.display = "none";
+}, 3000);
     });
 }
 
