@@ -38,3 +38,13 @@ configurarFormulario(site);
 configurarEnvioFormulario(site);
 
 window.addEventListener("hashchange", renderizarPagina);
+
+const btnContraste = document.getElementById("btn-contraste");
+
+if (btnContraste) {
+    btnContraste.addEventListener("click", () => {
+        const altoContraste = document.body.classList.toggle("alto-contraste");
+
+        btnContraste.setAttribute("aria-pressed", altoContraste);
+    });
+}

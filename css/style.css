@@ -25,6 +25,99 @@
  --espaco-5: 3rem;
 }
 
+body.alto-contraste {
+ background-color: #000000;
+ color: #ffffff;
+}
+
+body.alto-contraste header,
+body.alto-contraste footer {
+ background-color: #000000;
+ color: #ffffff;
+}
+
+body.alto-contraste nav {
+ background-color: #000000;
+}
+
+body.alto-contraste nav a {
+ color: #ffff00;
+}
+
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste h3,
+body.alto-contraste p,
+body.alto-contraste li,
+body.alto-contraste address {
+ color: #ffffff;
+}
+
+body.alto-contraste a {
+ color: #ffff00;
+}
+
+body.alto-contraste button {
+ background-color: #ffff00;
+ color: #000000;
+ border: 2px solid #ffffff;
+}
+
+body.alto-contraste input,
+body.alto-contraste textarea,
+body.alto-contraste select {
+ background-color: #000000;
+ color: #ffffff;
+ border: 2px solid #ffffff;
+}
+
+body.alto-contraste img {
+ border: 2px solid #ffffff;
+}
+
+body.alto-contraste .projetos-grid article {
+ background-color: #000000;
+ color: #ffffff;
+ border: 2px solid #ffffff;
+}
+
+body.alto-contraste .projetos-grid h3 {
+ color: #ffffff;
+}
+
+body.alto-contraste .badge {
+ background-color: #ffff00;
+ color: #000000;
+ border: 1px solid #ffffff;
+}
+
+body.alto-contraste fieldset {
+ background-color: #000000;
+ color: #ffffff;
+ border: 2px solid #ffffff;
+}
+
+body.alto-contraste legend {
+ color: #ffffff;
+}
+
+body.alto-contraste .alerta {
+ background-color: #000000;
+ color: #ffffff;
+ border: 2px solid #ffff00;
+}
+
+body.alto-contraste #btn-contraste:focus {
+ outline: 3px solid #ffffff;
+ outline-offset: 3px;
+}
+
+#btn-contraste:focus {
+ outline: 3px solid #ffff00;
+ outline-offset: 3px;
+}
+
+
 header {
  background-color: var(--cor-primaria);
  color: var(--cor-branca);
@@ -116,6 +209,24 @@ nav a {
 nav a:hover {
  color: var(--cor-destaque);
  background-color: var(--cor-secundaria-clara);
+}
+
+nav #btn-contraste {
+ background-color: #f9a825;
+ color: #000000;
+ border: 2px solid #ffffff;
+ padding: var(--espaco-1) var(--espaco-2);
+ border-radius: 6px;
+ font-family: inherit;
+ font-size: inherit;
+ cursor: pointer;
+ margin: 0;
+ line-height: normal;
+}
+
+nav #btn-contraste:hover {
+ background-color: #ffffff;
+ color: #000000;
 }
 
 main {
