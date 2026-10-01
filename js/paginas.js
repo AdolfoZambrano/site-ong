@@ -5,7 +5,7 @@ const paginas = {
             <p>Esta ONG desenvolve ações solidárias para apoiar pessoas e comunidades.</p>
 
             <img 
-                src="img/acao-solidaria.jpg" 
+                src="/img/acao-solidaria.webp" 
                 alt="Voluntários entregando alimentos durante uma ação solidária" 
                 width="450"
             >
